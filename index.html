@@ -29,7 +29,7 @@
 						</tr>
 					</thead>
 					<tbody id="tabela-pacientes">
-						<tr class="paciente" >
+						<tr class="paciente" id="primeiro-paciente" >
 							<td class="info-nome">Paulo</td>
 							<td class="info-peso">100</td>
 							<td class="info-altura">2.00</td>
@@ -72,13 +72,10 @@
 
 			</section>
 		</main>
-        <script>
-        //atribui o valor da tag h1 para a variável título
-		let titulo = document.querySelector("h1").textContent;
-		//mostra no console do navegador a variável título
-		console.log(titulo);
-        //modifica o valor do título para a frase "Fica grandão birlllll"
-		document.querySelector("h1").textContent = "Fica grandão birlllll";
+
+		<!--Importação dos arquivos javascript aqui-->
+        <script src="js/principal.js">
+         
         </script>
 	</body>
 </html>
